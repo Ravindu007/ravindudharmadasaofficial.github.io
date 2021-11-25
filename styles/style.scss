@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+}
+
+.cover {
+  img {
+    width: 350px;
+  }
+}
+.services {
+}
+.skills {
+}
+.feature {
+}
+.join {
+  font-size: 16 px;
+}
+.contact {
+  #icons {
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .join {
+    font-size: 30px;
+  }
+}

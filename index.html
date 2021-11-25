@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-sm navbar-dark bg-danger">
+    <a href="" class="navbar-brand"></a>
+
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#menu"><span class="navbar-toggler-icon"></span></button>
+
+    <div class="collapse navbar-collapse justify-content-center" id="menu">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a href="#home" class="nav-link ">Home</a></li>
+        <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+        <li class="nav-item"><a href="#feature" class="nav-link">Feature Projects</a></li>
+        <li class="nav-item"><a href="#join" class="nav-link">Join</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="cover mt-5" id="home">
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6 text-light">
+          <h3 class="display-4">Welcome</h3>
+          <p>I'm Ravindu Dharmadasa a second year undergraduate of the Sabaragamuwa University of Sri Lanka.</p>
+          <button class="btn btn-danger" data-toggle="modal" data-target="#modal1">Contact</button>
+        </div>
+
+        <div class="col-md-6">
+          <img src="images/profile.jpg" class="mx-auto d-block img-fluid" alt="">
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <section class="services mt-5" id="services">
+    <div class="container">
+      <div class="card-deck">
+
+        <div class="card col-md-4 bg-danger">
+          <div class="card-header">
+            <h3>Digital Marketing</h3>
+          </div>
+          <div class="card-body">
+            <img src="images/marketing.png" alt="" class="mx-auto d-block img-fluid">
+          </div>
+        </div>
+
+        <div class="card col-md-4 ">
+          <div class="card-header">
+            <h3>SEO strategies</h3>
+          </div>
+          <div class="card-body">
+            <img src="images/seo.png" alt="" class="mx-auto d-block img-fluid">
+          </div>
+        </div>
+
+        <div class="card col-md-4 bg-danger">
+          <div class="card-header">
+            <h3>Web develoing</h3>
+          </div>
+          <div class="card-body">
+            <img src="images/web developing.png" alt="" class="mx-auto d-block img-fluid">
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+  </section>
+
+  <section class="skills mt-5" id="skills">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-6 col-md-3 mt-2">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text " style="font-size: 30px;">HTML <br>
+              50%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 mt-2">
+          <div class="card bg-danger">
+            <div class="card-body">
+              <p class="card-text " style="font-size: 30px;">CSS <br>
+              50%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-5 mt-2">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text " style="font-size: 30px;">SQl<br>
+              50%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-5 mt-2">
+          <div class="card bg-danger">
+            <div class="card-body">
+              <p class="card-text " style="font-size: 30px;">Flutter<br>
+              50%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 mt-2">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text " style="font-size: 30px;">Java<br>
+              50%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 mt-2">
+          <div class="card bg-danger">
+            <div class="card-body">
+              <p class="card-text " style="font-size: 30px;">C<br>
+              50%</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="feature mt-5" id="feature">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-12 col-md-6">
+          <div class="container mt-2">
+            <div class="carousel slide carousel-fade" data-ride="carousel" id="indicators1">
+              
+              <ol class="carousel-indicators ">
+                <li data-target="#indicators1" data-slide-to="0"></li>
+                <li data-target="#indicators1" data-slide-to="1"></li>
+              </ol>
+  
+              <div class="carousel-inner">
+      
+                    <div class="carousel-item active" data-interval="5000">
+                      <img src="images/2.jpg" alt="" class="mx-auto d-block img-fluid">
+                    </div>
+                    <div class="carousel-item " data-interval="5000">
+                      <img src="images/3.jpg" alt="" class="mx-auto d-block img-fluid">
+                    </div>
+  
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="container mt-2">
+            <div class="carousel slide carousel-fade" data-ride="carousel" id="indicators2">
+              <ol class="carousel-indicators">
+                <li data-target="#indicators2" data-slide-to="0"></li>
+                <li data-target="#indicators2" data-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner">
+  
+                    <div class="carousel-item active" data-interval="5000">
+                      <img src="images/5.jpg" alt="" class="mx-auto d-block img-fluid">
+                    </div>
+                    <div class="carousel-item" data-interval="5000">
+                      <img src="images/8.jpg" alt="" class="mx-auto d-block img-fluid">
+                    </div>
+                
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="join mt-5" id="join">
+    <div class="container">
+      <div class="card bg-dark">
+        <div class="card-body text-light">
+
+           <div class="row">
+            <div class="col-8">
+              <p class="card-title">Lets work together on <br> your next Project</p>
+             </div>
+  
+             <div class="col-4">
+              <button class="btn btn-danger" data-toggle="modal" data-target="#modal1">Mail me</button>
+             </div>
+           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="card text-light" style="background-color: black;">
+      <div class="card-body">
+        <div class="row" id="icons">
+          <a href="http://"><ion-icon name="logo-facebook" class="text-danger"></ion-icon></a>
+          <a href="http://"><ion-icon name="logo-instagram"  class="text-danger"></ion-icon></a>
+          <a href="http://"><ion-icon name="logo-github"  class="text-danger"></ion-icon></a>
+          <a href="http://"><ion-icon name="logo-linkedin"  class="text-danger"></ion-icon></a>
+        </div>
+      </div>
+      <div class="card-footer">
+        <p class="card-text text-center">Ravindu Sandaruwan @2021 all rights received</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact form -->
+  <div class="modal fade" tabindex="=-1" role="dialog" id="modal1">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="documet">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Contact me</h5>
+          <button type="button" class="colse" data-dismiss="modal" aria-label="close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="">
+            <!-- Name -->
+            <div class="form-group">
+              <label for="fullName">Full Name</label>
+              <input type="text" class="form-control" id="inputName" placeholder="Enter your Full name">
+            </div>
+            <!-- email -->
+            <div class="form-group">
+              <label for="Email address">Full Name</label>
+              <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email address">
+            </div>
+            <!-- phone number -->
+            <div class="form-group">
+              <label for="phone Number">Phone Number</label>
+              <input type="number" class="form-control" id="inputNumber" placeholder="Enter your phone number">
+            </div>
+            <!-- message -->
+            <div class="form-group">
+              <label for="message">Message</label>
+              <input type="text" class="form-control" id="message" placeholder="Enter your message">
+            </div>
+
+
+
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger">Submit</button>
+          <button type="button" class="byn btn-dark" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

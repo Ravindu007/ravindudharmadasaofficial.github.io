@@ -1,0 +1,24 @@
+body {
+  background-color: black;
+}
+
+.cover img {
+  width: 350px;
+}
+
+.join {
+  font-size: 16 px;
+}
+
+.contact #icons {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+@media screen and (min-width: 800px) {
+  .join {
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
