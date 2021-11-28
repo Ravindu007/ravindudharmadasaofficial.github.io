@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+}
+
+.navbar #menu li a {
+  color: yellow;
+}
+
+.cover .card img {
+  height: 200px;
+}
+
+.services {
+  text-align: center;
+}
+
+.services .card {
+  background-color: yellow;
+}
+
+.services .card a {
+  text-decoration: none;
+  color: black;
+}
+
+.services .card .icons {
+  font-size: 50px;
+}
+
+.reviews {
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact .profiles {
+  color: yellow;
+  font-size: 25px;
+}
+
+@media screen and (min-width: 570px) {
+  .cover .card img {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+/*# sourceMappingURL=style.css.map */

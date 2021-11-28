@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+}
+
+.navbar {
+  #menu {
+    li {
+      a {
+        color: yellow;
+      }
+    }
+  }
+}
+.cover {
+  .card {
+    img {
+      height: 200px;
+    }
+  }
+}
+.services {
+  text-align: center;
+  .card {
+    background-color: yellow;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    .icons {
+      font-size: 50px;
+    }
+  }
+}
+.reviews {
+  text-align: center;
+}
+.contact {
+  text-align: center;
+  .profiles {
+    color: yellow;
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 570px) {
+  .cover {
+    .card {
+      img {
+        height: fit-content;
+      }
+    }
+  }
+}
