@@ -1,0 +1,29 @@
+#layout {
+  margin-top: 30px;
+  background-color: purple;
+  height: 80vh;
+  width: 50vh;
+
+  .display {
+    background-color: yellow;
+    position: relative;
+    height: 15vh;
+    margin-top: 10px;
+
+    #displayboard {
+      text-align: right;
+    }
+  }
+
+  .buttons {
+    height: 60vh;
+    background-color: orange;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+
+    .btn {
+      margin: 2px;
+    }
+  }
+}

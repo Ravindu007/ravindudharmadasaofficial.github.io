@@ -1,0 +1,33 @@
+#layout {
+  margin-top: 30px;
+  background-color: purple;
+  height: 80vh;
+  width: 50vh;
+}
+
+#layout .display {
+  background-color: yellow;
+  position: relative;
+  height: 15vh;
+  margin-top: 10px;
+}
+
+#layout .display #displayboard {
+  text-align: right;
+}
+
+#layout .buttons {
+  height: 60vh;
+  background-color: orange;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (1fr)[5];
+      grid-template-rows: repeat(5, 1fr);
+}
+
+#layout .buttons .btn {
+  margin: 2px;
+}
+/*# sourceMappingURL=style.css.map */
